@@ -68,7 +68,7 @@ DevOps Homework 3
 
 ###Screencast
 
-![gif Recording](https://www.youtube.com/watch?v=p9qEzeFj87g&feature=youtu.be)
+https://www.youtube.com/watch?v=p9qEzeFj87g&feature=youtu.be
 
 
 
