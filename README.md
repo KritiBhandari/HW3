@@ -60,7 +60,6 @@ DevOps Homework 3
 *Upload some of the images using the Curl Command. For E.g.
 
 >	curl -F "image=@./img/hairypotter.jpg" localhost:8080/upload
-	curl -F "image=@./img/hairypotter.jpg" localhost:8080/upload
 
 *The images are uploaded alternately on 3000 and 3001 
 *On the browser /set, /get, /recent, /meow are used to test the functionality
