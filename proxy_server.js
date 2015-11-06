@@ -78,50 +78,11 @@ process.on('uncaughtException', function(err){
 
 
 
-  /* var currentvalue = client.rpop('servers',function(err, value){
-
-    proxy.web( req, res, {target: value })
-  });
-    client.lpush(['servers', currentvalue], function(err, value){
-      console.log("LPUSHed: ",value)
-    })*/
+ 
 
 
 
 
-/*
-var options = {};
-var proxy   = httpProxy.createProxyServer(3000, 'localhost').listen(8080);
-*/
 
-
-/*
-var infrastructure =
-{
-  setup: function()
-  {
-    // Proxy.
-    
-
-    var server  = http.createServer(function(req, res)
-    {
-      proxy.web( req, res, {target: TARGET } );
-    });
-    server.listen(8080);
-
-    // Launch green slice
-    //newtarget = TARGET.slice(17,21);
-    exec('node main.js '+3000, function(err, out, code) 
-    {
-      console.log("attempting to run main.js ");
-      if (err instanceof Error)
-            throw err;
-      if( err )
-      {
-        console.error( err );
-      }
-    });
-}
-}*/
 
 
